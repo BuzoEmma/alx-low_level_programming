@@ -9,25 +9,17 @@
 
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2;
+	int i, z = 0;
 
-
-	while (i < 50)
+	while (i < 1024)
 	{
-	if (i == 0)
-	printf("%ld", j);
-	else if (i == 1)
-	printf(", %ld", k);
-	else
-	{
-	k += j;
-	j = k - j;
-	printf(", %ld", k);
+		if ((i % 3 == 0) || (i % 5 == 0))
+		{
+			z += i;
+		}
+		i++;
 	}
-	++i;
-	}
-	printf("\n");
+	printf("%d\n", z);
 	return (0);
 }
 
