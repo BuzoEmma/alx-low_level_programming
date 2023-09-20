@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcpy - this function copy
+ * _strcpy - copies a string including the null byte
  * @dest: first parameter
  * @src: second parameter
+ * Return: the pointer to dest
 */
 
 char *_strcpy(char *dest, char *src)
