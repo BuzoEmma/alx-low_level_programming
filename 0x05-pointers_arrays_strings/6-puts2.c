@@ -2,7 +2,7 @@
 
 /**
  * puts2 - this function prints every char
- * @str - this parameter prints new line
+ * @str - this parameter prints every other char
 */
 
 void puts2(char *str)
